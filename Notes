@@ -1,0 +1,59 @@
+#
+# discount_percent = 10
+# discount_amount = discount_percent/100*fee
+# discounted_fee = fee - discount_amount
+#
+# print("Fee after discount:", discounted_fee, "dollars")  # 4081.5
+
+
+# x = 0
+# while x < 20:
+#     print(x)
+#     x += 0.3
+# Pop quiz "while" loop or "for" loop
+# Suppose we want to check if a given positive integer is prime
+
+#Anwer: use a "for" loop
+
+# we must use a while loop
+
+# n = int(input("Give a positive integer: "))
+# is_prime = True
+# for i in range(2, n):
+#     if n % i ==0:
+#         print("The number you gave is not prime, it is divisible by", i)
+#         is_prime = False
+#     if is_prime == True
+#         print("The number you gave is a prime!")
+
+# Suppose we want to repeatedly square a number until it is greater than 1000, and then print the result.
+#which loop should I use?
+# Answer: let's use a "while" loop
+
+# x = float(input("Give a number bigger than 1: "))
+#
+# while x < 1000:
+#     x = x**2
+#     print(x)
+
+
+# Suppose we want to find numbers between 20 and 1300 that are not divisible by 6.
+#What type of loop should we use?
+
+# Answer: "for" loop
+
+# for num in range(20, 301):
+#     if num % 6 != 0:
+#         print(num)
+# yet another one: suppose we want to check if a given number n is equal
+# to a ^ 4 + b ^ 4 for some integer a and b.
+# What type of loop structure should we use?
+#
+# n = int(input("Give a positive integer: "))
+#
+#    for a in range(n):
+#        for b in range(n):
+#            if a**4 + b**4 ==n:
+#                print("Yayy!! We found a combination for n = : ", n)
+#                print(a)
+#                print(b)
