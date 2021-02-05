@@ -1,0 +1,56 @@
+#Tony Maldonado-Perez
+#amaldo36@gmail.com
+## I hereby attest that I have adhered to the rules for quizzes and projects as well as UIC's
+#Academic Integrity standards. Signed: Anthony Maldonado-Perez
+
+#Question 1
+
+# n = int(input("Please pick an integer for n: "))
+# m = int(input("Please pick an integer for m: "))
+#
+# sum = n + m
+# i = 0
+#
+# while i < n:
+#     if m or n <=0:
+#         print("pick another number")
+#     sum = sum + i
+#     print(sum)
+#     i = i + m
+
+#Question 2
+
+# L =  ["hello", "string4", "goodbye"]
+#
+# for 'e' in L:
+#     quotient = len(L)/'e'
+#     percentage = quotient * 100
+#     print(percentage)
+
+
+
+
+
+
+#Question 3
+
+thought a for loop would work best
+for guess in range(1,11):
+    #decided  10 tries is good
+    guess = int(input("Please guess my number from 1 and 100: "))
+    if guess <= 0:
+        print("Sorry, this is not a number between 1 and 100.")
+    elif guess > 100:
+        print("Sorry, this is not a number between 1 and 100.")
+        #Has to be a number between 1 and 100
+    elif guess <= 60:
+        print("No sorry that is not my number. You are getting colder.")
+    elif guess > 60 and guess < 80:
+        print("No sorry that is not my number. You are getting warmer.")
+        #thought a space of 20 is getting colder
+    elif guess > 80:
+        print("No sorry that is not my number. You are getting warmer.")
+    else:
+        print("You guess my number!")
+        break
+# break for when user guesses my number
